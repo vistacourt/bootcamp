@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form action="#">
+<p>
+	<label for="firstname">First Name: </label>
+	<input id="firstname" type="text" placeholder="John" required>
+</p>
+<p>
+	<label for="lastname">Last Name: </label>
+	<input id="lastname" type="text" placeholder="Smith" required>
+</p>
+
+
+
+<p>
+	<label for="email">Username: </label>
+	<input id="email" type="email" placeholder="email" required>
+</p>
+<p>
+	<label for="password">Password: </label>
+	<input id="password" type="password" placeholder="********" pattern=".{8}" required title="8 characters">
+</p>
+
+<p>
+<label>Birthday: </label>
+<select name="month">
+	<option value="january">January</option>
+	<option value="february">February</option>
+	<option value="march">March</option>
+</select>
+
+<select name="day">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+</select>
+
+<select name="year">
+	<option value="1969">1969</option>
+	<option value="1970">1970</option>
+	<option value="1970">1970</option>
+</select>
+</p>
+
+<p>
+	<label for="male">Male: </label>
+	<input name="sexChoice" id="male" type="radio" value="male">
+	<label for="female">Female: </label>
+	<input name="sexChoice" id="female" type="radio" value="female">
+	<label for="other">Other: </label>
+	<input name="sexChoice" id="other" type="radio" value="other">
+</p>
+
+
+
+<p>
+<label>I agree to the terms and conditions</label>
+<input type="checkbox" name="">
+</p>
+
+
+<p>
+	<input type="submit" name="">
+</p>
+
+</form>
+
+
+</body>
+</html>
